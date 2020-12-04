@@ -73,6 +73,7 @@
 		<reportinguiVersion>1.7.0</reportinguiVersion>
 		<addresshierarchyVersion>2.14.2</addresshierarchyVersion>
 		<attachmentsVersion>2.4.0</attachmentsVersion>
+		<atomfeedVersion>1.0.13</atomfeedVersion>
 		<!-- OWAs -->
 		<sysadminVersion>1.2</sysadminVersion>
 
@@ -991,6 +992,30 @@
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>reportingui-omod</artifactId>
 				<version>${reportinguiVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>atomfeed-api-1.9</artifactId>
+				<version>${atomfeedVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>atomfeed-api-2.0</artifactId>
+				<version>${atomfeedVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>atomfeed-api</artifactId>
+				<version>${atomfeedVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>atomfeed-omod</artifactId>
+				<version>${atomfeedVersion}</version>
 				<scope>provided</scope>
 			</dependency>
 		</dependencies>
